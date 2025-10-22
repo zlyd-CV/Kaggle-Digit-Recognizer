@@ -6,6 +6,8 @@
 
 ## 二、内容介绍
 + 安装正常的pytorch环境，还有tqdm、numpy包即可。
++ save用来存放模型字典权重文件，运行程序需在main.py中实例化模型后运行main.py即可
++ 注意推理（预测）时实例化的模型与保存的模型是否一致（不要保存VGG模型实例化ResNet），如果推理（test.py）出错多半是这个原因
 
 ## 三、成绩展示
 ![成绩展示](https://github.com/zlyd-CV/Photos_Are_Used_To_Others_Repository/blob/2bbecabad4a090b10429d84ec45a9e1a2f878df4/Kaggle-Digit-Recognizer/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-10-22%20132954.png)
